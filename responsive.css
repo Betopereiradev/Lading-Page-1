@@ -104,4 +104,8 @@
   footer {
     width: 100%;
   }
+
+  .sobre-nos-texto h1 {
+    margin-bottom: 7rem;
+  }
 }
