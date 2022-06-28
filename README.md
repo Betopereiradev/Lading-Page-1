@@ -1,2 +1,2 @@
-# Lading-Page-1
-Criação de Landing page totalmente responsiva
+# Landing Page
+Criação de landing page responsiva utilizando HTML, CSS e Bootstrap
