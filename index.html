@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- Scroll Animation Lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Landing Page 1</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav fs-2 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Projetos</a>
+              </li>
+            </ul>
+
+            <div>
+              <button class="btn-transparente">Contato</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="container" data-aos="fade-up">
+      <header>
+        <div class="texto-header">
+          <h1>
+            Torne realidade <br />
+            seu sonho de negócio
+          </h1>
+          <p>
+            Nós oferecemos o que você e sua empresa <br />
+            precisam para <b>alavançar</b> seus resultados e alcançar suas
+            metas.
+          </p>
+        </div>
+
+        <div class="imagem-header">
+          <img class="img-fluid" src="./assets/img1.png" alt="" />
+        </div>
+      </header>
+    </div>
+
+    <!-- Parte sobre nós -->
+    <div class="container" data-aos="fade-up">
+      <section>
+        <div class="sobre-nos-texto text-center">
+          <span>Sobre nós</span>
+          <h1>Nosso time</h1>
+        </div>
+
+        <div class="sobre-nos-wrapper">
+          <div data-aos="fade-bottom">
+            <img class="img-fluid" src="./assets/img2.png" alt="" />
+          </div>
+
+          <div class="texto-sobre">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur tempore officia doloribus dolorum autem. Aliquid,
+              nostrum necessitatibus? Ut sequi blanditiis, similique eligendi ea
+              ratione doloribus adipisci dolorem aliquam, eveniet reiciendis?
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis incidunt architecto doloribus ex deserunt commodi
+              dolore similique, adipisci voluptas facere tempore unde modi
+              laborum sunt cupiditate culpa? Aut, nam perspiciatis.
+            </p>
+
+            <div class="botoes-sobre" data-aos="fade-bottom">
+              <button class="btn-azul">Sobre Nós</button>
+              <button class="btn-transparente">Nossa História</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Parte serviços -->
+    <div class="container" data-aos="fade-up">
+      <section>
+        <div class="servicos-wrapper">
+          <div class="servicos-texto">
+            <span>Nossos Serviços</span>
+            <h1>Tudo que sua empresa precisa</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+              doloribus quibusdam distinctio! Blanditiis, fugiat. Iste fugiat
+              blanditiis, voluptatum aliquid eum dolorum. Quae minima, tempore
+              quo ipsa doloremque temporibus voluptatum commodi.
+            </p>
+
+            <a href="#">Saiba mais</a>
+          </div>
+
+          <div class="servicos-icons">
+            <div class="servico" data-aos="fade-bottom">
+              <div class="icon">
+                <img src="./assets/serv1.png" alt="" />
+              </div>
+              <div>
+                <h2>Social Media Management</h2>
+              </div>
+            </div>
+
+            <div class="servico" data-aos="fade-bottom">
+              <div class="icon">
+                <img src="./assets/serv1.png" alt="" />
+              </div>
+              <div>
+                <h2>Search Engine Opimization</h2>
+              </div>
+            </div>
+
+            <div class="servico" data-aos="fade-bottom">
+              <div class="icon">
+                <img src="./assets/serv1.png" alt="" />
+              </div>
+              <div>
+                <h2>Design</h2>
+              </div>
+            </div>
+
+            <div class="servico">
+              <div class="icon">
+                <img src="./assets/serv1.png" alt="" />
+              </div>
+              <div>
+                <h2>Ads</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Parte o que oferecemos -->
+    <div class="container" data-aos="fade-up">
+      <div class="ofeceremos-texto text-center">
+        <span>Nosso trabalho</span>
+        <h1>O que oferecemos</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio esse
+          rerum, aliquid necessitatibus aliquam corrupti.
+        </p>
+      </div>
+
+      <div class="oferecemos-imagens">
+        <div class="oferecemos" data-aos="fade-bottom">
+          <img class="img-fluid" src="./assets/designby.png" alt="" />
+        </div>
+        <div class="oferecemos" data-aos="fade-bottom">
+          <img class="img-fluid" src="./assets/cloudapp.png" alt="" />
+        </div>
+        <div class="oferecemos" data-aos="fade-bottom">
+          <img class="img-fluid" src="./assets/design.png" alt="" />
+        </div>
+      </div>
+
+      <div class="botao-oferecemos">
+        <button class="btn-transparente">Veja todos os serviços</button>
+      </div>
+    </div>
+
+    <!-- Parte clientes -->
+    <div class="container" data-aos="fade-up">
+
+      <div class="clientes-dizem">
+
+        <div class="clientes-texto">
+          <span>Testemunhas</span>
+          <h1>O que nossos clientes dizem</h1>
+        </div>
+
+       <div class="clientes-card-wrapper">
+
+       <div class="cliente-card" data-aos="fade-bottom">
+
+         <div class="cliente-info">
+           <div class="foto"></div>
+           <div>
+            <span>Alberto Pereira</span>
+            <p>Front End Developer</p>
+           </div>
+         </div>
+
+         <div class="cliente-cmt">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis atque pariatur quae sequi corporis!</p>
+         </div>
+       </div>
+
+
+       <div class="cliente-card" data-aos="fade-bottom">
+
+        <div class="cliente-info">
+          <div class="foto"></div>
+          <div>
+           <span>Alberto Pereira</span>
+           <p>Front End Developer</p>
+          </div>
+        </div>
+
+        <div class="cliente-cmt">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis atque pariatur quae sequi corporis!</p>
+        </div>
+      </div>
+
+      <div class="cliente-card" data-aos="fade-bottom">
+
+        <div class="cliente-info">
+          <div class="foto"></div>
+          <div>
+           <span>Alberto Pereira</span>
+           <p>Front End Developer</p>
+          </div>
+        </div>
+
+        <div class="cliente-cmt">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis atque pariatur quae sequi corporis!</p>
+        </div>
+      </div>
+
+       </div>
+
+      </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer data-aos="fade-up">
+      <div class="container">
+        
+        <div class="rodape-wrapper">
+
+          <div class="coluna">
+            <img src="./assets/logofooter.png" alt="">
+          </div>
+          <div class="coluna">
+            <h3>Termos e Políticas</h3>
+            <a href="#">Termos de Serviço</a>
+            <a href="#">Política de Privacidade</a>
+          </div>
+          <div class="coluna">
+            <h3>Compania</h3>
+            <a href="#">Início</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Entrar em Contato</a>
+          </div>
+          <div class="coluna">
+            <h3>Contato</h3>
+            <span>+55 (82) 99604-9544</span>
+            <span>Betopereiradev@gmail.com</span>
+          </div>
+          <div class="coluna">
+            <h3>Me Encontre</h3>
+            <a href="#">GitHub</a>
+            <a href="#">Linkedin</a>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    
+    <!-- JavaScript Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+      <!-- Scroll animation script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>

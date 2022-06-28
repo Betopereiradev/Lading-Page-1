@@ -1,0 +1,354 @@
+:root {
+  --cor-azul: #377dff;
+  --cor-cinza-escuro: #1d1d1d;
+  --cor-cinza-claro: #464646;
+
+  --bs-navbar-toggler-icon-bg: url('./assets/menu.svg'!important);
+
+  font-size: 62.5% !important;
+}
+
+.btn-azul {
+  background-color: var(--cor-azul);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  width: 18rem;
+  height: 5rem;
+  font-weight: bold;
+}
+
+.btn-transparente {
+  background: none;
+  border: solid 1px var(--cor-azul);
+  border-radius: 2rem;
+  color: var(--cor-azul);
+  height: 5rem;
+  width: 20rem;
+}
+
+.texto-azul {
+  color: var(--cor-azul);
+}
+
+/*===========FORMATAÇÃO ESPECÍFICA===============*/
+
+body {
+  font-size: 1.6rem !important;
+}
+
+/*===========NAV===============*/
+
+nav {
+  color: var(--cor-cinza-escuro) !important;
+}
+
+/*===========HEADER===============*/
+
+header {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  text-align: center;
+  width: 100%;
+}
+
+.texto-header h1 {
+  font-size: 6.4rem;
+  color: var(--cor-cinza-escuro);
+}
+
+.texto-header p {
+  font-size: 2rem;
+  color: var(--cor-cinza-claro);
+}
+
+/*===========SECTION SOBRE NÓS===============*/
+
+.sobre-nos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 7rem;
+
+  height: 50rem;
+  margin-bottom: 10rem;
+}
+
+.texto-sobre {
+  width: 50%;
+}
+
+.texto-sobre p {
+  font-size: 2rem;
+  color: var(--cor-cinza-claro);
+}
+
+.sobre-nos-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sobre-nos-texto span {
+  color: var(--cor-azul);
+  font-size: 3.4rem;
+}
+
+.sobre-nos-texto h1 {
+  font-size: 6.5rem;
+  color: var(--cor-cinza-escuro);
+}
+
+.botoes-sobre {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/*===========SECTION NOSSOS SERVIÇOS===============*/
+
+.servicos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+
+}
+
+.servicos-texto {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.servicos-texto span {
+  color: var(--cor-azul);
+  font-size: 2.4rem;
+}
+
+.servicos-texto h1 {
+  font-size: 6.5rem;
+  color: var(--cor-cinza-escuro);
+}
+
+.servicos-texto p {
+  color: var(--cor-cinza-claro);
+  font-size: 2rem;
+}
+
+.servicos-texto a {
+  text-decoration: none;
+  color: var(--cor-azul);
+}
+
+.servicos-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  width: 50%;
+}
+
+.servico {
+  min-width: 26rem;
+  max-width: 26rem;
+  height: 26rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  text-align: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+}
+
+.servico h2 {
+  font-size: 2.4rem;
+  color: var(--cor-cinza-escuro);
+}
+
+/*===========O QUE OFERECEMOS===============*/
+
+.ofeceremos-texto {
+  margin-top: 15rem;
+}
+
+.ofeceremos-texto span {
+  color: var(--cor-azul);
+  font-size: 2.4rem;
+}
+
+.ofeceremos-texto h1 {
+  color: var(--cor-cinza-escuro);
+  font-size: 6.5rem;
+  margin-bottom: 3rem;
+}
+
+.ofeceremos-texto p {
+  color: var(--cor-cinza-claro);
+  font-size: 2rem;
+}
+
+.oferecemos-imagens {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.botao-oferecemos {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*===========CLIENTES DIZEM===============*/
+
+.clientes-dizem {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url('./assets/vetor.png');
+  background-repeat: no-repeat;
+}
+
+.clientes-texto {
+  text-align: center;
+}
+
+.clientes-texto span {
+  color: var(--cor-azul);
+  font-size: 2.4rem;
+}
+
+.clientes-dizem h1 {
+  color: var(--cor-cinza-escuro);
+  font-size: 6.5rem;
+}
+
+.clientes-card-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 5rem;
+}
+
+.cliente-card {
+  width: 38rem;
+  height: 35rem;
+
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.cliente-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cliente-info span {
+  color: var(--cor-azul);
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cliente-info p {
+  color: var(--cor-cinza-claro);
+  font-size: 1.4rem;
+  opacity: 0.5;
+}
+
+.cliente-cmt {
+  width: 80%;
+}
+
+.cliente-cmt p {
+  color: var(--cor-cinza-claro);
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+.foto {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 2rem;
+
+  background-image: url('./assets/eu.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+/*===========RODAPE===============*/
+
+footer {
+  background-color: var(--cor-cinza-claro);
+  width: 100%;
+  height: 30vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10rem;
+}
+
+.rodape-wrapper {
+  display: flex;
+
+  gap: 8rem;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.coluna h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.coluna span {
+  color: white;
+}
+
+.coluna a {
+  text-decoration: none;
+  color: white;
+}
